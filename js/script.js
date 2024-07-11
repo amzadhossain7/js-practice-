@@ -47,7 +47,68 @@ function dWrite(){
     document.write("welcome to my website")
 }
 
-// ex8 document write 
+// ex8 document alert
 function dAlert(){
     window.alert("welcome to my website")
+}
+
+// ex9 text show 
+function textShow(){
+    document.getElementById("s_t").innerHTML="I am Bangladesh";
+}
+
+// ex10 focus 
+function cInput(){
+    document.getElementById("c_input").style.backgroundColor="blue";
+}
+
+// ex11 font size change
+function fontSize(){
+    document.getElementById("fz_change").style.fontSize="60px";
+}
+
+// ex12 font size change
+function iShow(){
+    document.getElementById('im_show').style.width="50%";
+}
+
+
+// ex13 window print
+function windowPrint(){
+ window.print('print');
+}
+
+// ex14 window print
+function consoleLog(){
+    console.log("Hello Bangladesh");
+}
+
+// ex15 define name
+function carName(){
+    document.getElementById('d_name').innerHTML=(
+        'volvo,tasla,find,toyta'
+    );
+}
+
+function phoneName(){
+    document.getElementById('d_name').innerHTML=(
+        'iphone,vivo,samsung'
+    );
+}
+
+// ex16 get month
+function getMonth(){
+    const d = new Date();
+    document.getElementById('month').innerHTML=d.getMonth()+1;
+}
+
+// ex17 
+
+var number1 = 5;
+var number2 = 6;
+
+result = number1 + number2;
+
+function rAddition(){
+   document.getElementById('r_a').innerHTML=result;
 }
