@@ -10,24 +10,24 @@
     <link rel="stylesheet" href="css/bootstrap-icons.css">
 
 
-    <title>Boostrap icon</title>
+    <title> js project</title>
 </head>
 <body>
     
     <section class="js_project pb-5 pt-5">
         <div class="container">
             <!-- ex1 -->
-            <h1>change the text by click the button</h1>
+            <h1>1.change the text by click the button</h1>
             <button type="button" onclick="textChange()" class="btn btn-danger">click here</button>
             <h2 id="t_c">Hello</h2>
 
             <!-- ex2 --><hr>
-            <h1>click the buttton to show the date</h1>
+            <h1>2.click the buttton to show the date</h1>
              <button type="button" onclick="showDate()" class="btn btn-danger">click here</button>
              <h3 id="s_date">Date/time</h3>
 
               <!-- ex3 --><hr>
-            <h1 class="mb-4">click the buttton to on/off the Light</h1>
+            <h1 class="mb-4">3.click the buttton to on/off the Light</h1>
              
             <div class="row text-center">
                  <div class="col-md-4 ">
@@ -45,7 +45,7 @@
                 </div>
 
                  <!-- ex4 --><hr>
-            <h1 class="mb-5">click the buttton to on/off the Light</h1>
+            <h1 class="mb-5">4.click the buttton to on/off the Light</h1>
              
             <div class="row text-center">
                 <div class="col-md-4 ">
@@ -62,14 +62,14 @@
             </div>
 
               <!-- ex5 --> <hr>
-            <h1>click the button for color change</h1>
+            <h1>5.click the button for color change</h1>
             <button type="button" onclick="colorChange()" class="btn btn-danger">click here</button>
 
             <h2 id="color_change">I am web devoloper</h2>
 
             <!-- ex6 --> <hr>
 
-            <h1 class="mb-5">click the buttton to on/off the Light</h1>
+            <h1 class="mb-5">6.click the buttton to on/off the Light</h1>
              
             <div class="row ">
                 <div class="col-md-4 ">
@@ -87,19 +87,82 @@
 
             <!-- ex7 --> <hr>
 
-            <h1>click the button for change the text</h1>
+            <h1>7.click the button for change the text</h1>
             <button type="button" onclick="dWrite()" class="btn btn-danger">click here</button>
 
             
             <!-- ex8 --> <hr>
 
-            <h1>click the button to show the Alart</h1>
+            <h1>8.click the button to show the Alart</h1>
             <button type="button" onclick="dAlert()" class="btn btn-danger">click here</button>
               
-              
+            <!-- ex9 --> <hr>
 
-        </div>
+            <h1>9.double click the button to show the text</h1>
+            <button type="button" ondblclick="textShow()" class="btn btn-danger">click here</button>
+            <h1 id="s_t">Hello</h1>
 
+            <!-- ex10 --> <hr>
+
+            <h1>10. on focus</h1>
+            <input type="text" id="c_input" onfocus="cInput()" >
+
+            <!-- ex11 --> <hr>
+
+            <h1>11. click the button to Change font size</h1>
+            <button type="button" onclick="fontSize()" class="btn btn-danger">click here</button>
+            <h1 id="fz_change">Hello web devoloper</h1>
+
+
+            <!-- ex12 --> <hr>
+
+            <h1>12. onmouseenter event</h1>
+            <img src="image/sea.gif" class="img-fluid w-20" onmouseenter="iShow()" id="im_show" alt="">
+
+            
+            <!-- ex13 --> <hr>
+
+            <h1>13. window print</h1>
+            <button  type="button" class="btn btn-dark" onclick="windowPrint()">window print</button>
+
+            <!-- ex14 --> <hr>
+
+            <h1>14.console Log</h1>
+            <button  type="button" class="btn btn-dark" onclick="consoleLog()">console Log</button>
+
+
+            <!-- ex15 --> <hr>
+
+            <h1>15. define all related names </h1>
+
+            <button  type="button" class="btn btn-dark" onclick="carName()">Car name</button>
+
+            <button  type="button" class="btn btn-danger" onclick="phoneName()">phone name</button>
+
+            <ul style="list-style: none; " id="d_name" >
+                <li>volvo</li>
+                <li>tasla</li>
+                <li>toyta</li>
+                <li>find</li>
+                <li>iphone</li>
+                <li>vivo</li>
+                <li>samsung</li>
+            </ul>
+
+            <!-- ex16 --> <hr>
+
+            <h1>16. get month</h1>
+            <button  type="button" class="btn btn-dark" id="month" onclick="getMonth()">month date</button>
+
+            <!-- ex17 --> <hr>
+
+            <h1>17. click the button for the result</h1>
+            <button  type="button" class="btn btn-dark"  onclick="rAddition()">Result</button>
+            <h1 class="r_a" > Result</h1>
+
+   
+
+        </div> 
     </section>
 
 
